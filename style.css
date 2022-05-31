@@ -1,0 +1,98 @@
+@font-face {
+    font-family: psfont;
+    src: url(/font/zrnicrg.ttf);
+}
+
+.dropdm {
+    background-color: #2E6DB4;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: psfont;
+}
+
+.dropdm:hover {
+    background-color: #00AC9F;
+}
+
+.dropdm:active {
+    background-color: #F3C300;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    width: 60%;
+    left: 20%;
+    background-color: #2E6DB4;
+}
+
+.dropdowndiv-content {
+    display: none;
+    position: absolute;
+    background-color: #A1ACB4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdowndiv-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: psfont;
+}
+
+.dropdowndiv-content a:hover {
+    background-color: #76858F
+}
+
+.show {
+    display: block;
+}
+
+.shortarticles {
+    margin: auto;
+    padding-top: 5px;
+    width: 60%;
+    left: 20%;
+    font-size: 14px;
+    background-color: #dadada;
+    font-family: psfont;
+}
+
+.movies {
+    margin: auto;
+    padding-top: 5px;
+    width: 60%;
+    left: 20%;
+    font-size: 14px;
+    font-family: psfont;
+    display: flex;
+}
+
+.movieInfo {
+    padding-top: 5px;
+    width: 60%;
+    left: 20%;
+    background-color: #dadada;
+    font-family: psfont;
+}
+
+.movieYT {
+    padding-top: 5px;
+    width: 60%;
+    left: 20%;
+    background-color: #dadada;
+    font-family: psfont;
+}
+
+.textmovieyt {
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px;
+}
