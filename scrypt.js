@@ -14,3 +14,24 @@ window.onclick = function (klik) {
         }
     }
 }
+
+showGameDetails = () => {
+    let tytul = document.getElementById('title').textContent;
+    let sles = document.getElementById('sles').textContent;
+    let premiere = document.getElementById('premiere').textContent;
+    let developer = document.getElementById('developer').textContent;
+    let publisher = document.getElementById('publisher').textContent;
+    let text = document.getElementById('text').textContent;
+    let yt = document.getElementById('youtubevid').textContent;
+
+    let tytul1 = document.getElementsByClassName('').textContent;
+
+    wichGame = () => {
+        
+    }
+
+    console.log(tytul, sles, premiere, developer, publisher, text, yt);
+    console.log(tytul1);
+}
+
+showGameDetails();

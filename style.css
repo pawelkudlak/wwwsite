@@ -96,3 +96,56 @@
     text-align: justify;
     margin: 10px;
 }
+
+#heder {
+    background-image: url(/img/banner.png);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 60%;
+    left: 20%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+#oknoGry {
+    border: 1px solid black;
+    display: flex;
+    width: 60%;
+    left: 20%;
+    margin: auto;
+    justify-content: space-evenly;
+    gap: 10px 10px;
+}
+
+#miejsceYT {
+    width: 50%;
+}
+
+#opisGry {
+    width: 50%;
+    gap: 10px 10px;
+}
+
+#grupa1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px 10px;
+}
+
+#grupa2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px 10px;
+}
+
+#gra {
+    width: 60%;
+    left: 20%;
+    margin: auto;
+}
